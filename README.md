@@ -1,5 +1,5 @@
 # watermark-removal
-Firs you need to download the dataset or create your own dataset with watermarks.
+First you need to download the dataset or create your own dataset with watermarks.
 Than, in order to run the code you need to follow pix-2pix instructions as we can see bellow - 
 Train a model: python train.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2pix --which_direction BtoA
 Test the model: python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2pix --which_direction BtoA
